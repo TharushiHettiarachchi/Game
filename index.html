@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Fire Run</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="resources/flame.gif" />
+
+</head>
+
+<body class="body" onkeyup="keyCheck(event)" onload="play();">
+
+    <div class="background" id="background">
+
+        <img src="resources/Run (1).png" class="boy" id="boy" />
+        <div class="score" id="score">0</div>
+        <img src="resources/play.png" class="play" id="play" onclick="startPlaying(); createBoxes();" />
+        <img src="resources/title.png" class="title" id="title" />
+        <div class="game" id="game">Game Over</div>
+        <div class="finalScore" id="finalScore">0</div>
+        <div class="life" id="life">
+            <div class="d1" id="d1"></div>
+            <div class="d2" id="d2"></div>
+            <div class="d3" id="d3"></div>
+            <div class="d4" id="d4"></div>
+            <div class="d5" id="d5"></div>
+            <div class="d6" id="d6"></div>
+            <div class="d7" id="d7"></div>
+            <div class="d8" id="d8"></div>
+            <div class="d9" id="d9"></div>
+            <div class="d10" id="d10"></div>
+        </div>
+        <div class="border" id="border3">
+            <div class="level1">LEVEL 1</div>
+            <div class="won">YOU WON</div>
+            <div class="starboard">
+                <div class="star1" id="star1"></div>
+                <div class="star2" id="star2"></div>
+                <div class="star3" id="star3"></div>
+            </div>
+            <div class="buttonboard">
+                <div onclick="newGame();" class="retry"></div>
+                <button onclick="newGame();" class="nextlevel">Next Level</button>
+            </div>
+
+        </div>
+        <div class="border" id="border2">
+            <div class="level1">LEVEL 1</div>
+            <div class="won">LEVEL FAILED</div>
+            <div class="starboard">
+                <div class="star1" id="star1"></div>
+                <div class="star2" id="star2"></div>
+                <div class="star4" id="star3"></div>
+            </div>
+            <div class="buttonboard">
+                <div onclick="newGame();" class="retry"></div>
+
+            </div>
+
+        </div>
+        <div class="border" id="border1">
+            <div class="level1">LEVEL 1</div>
+            <div class="won">LEVEL FAILED</div>
+            <div class="starboard">
+                <div class="star1" id="star1"></div>
+                <div class="star4" id="star2"></div>
+                <div class="star4" id="star3"></div>
+            </div>
+            <div class="buttonboard">
+                <div onclick="newGame();" class="retry"></div>
+
+            </div>
+
+        </div>
+        <!-- <div class="advice" id="advice"> Press the SPACE button to JUMP </div> -->
+        <!-- <button onclick="newGame();" class="playAgain" id="playAgain">Play Again</button> -->
+    </div>
+
+
+
+    <script src=" script.js "></script>
+</body>
+
+</html>

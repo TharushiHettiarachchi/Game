@@ -1,0 +1,308 @@
+@font-face {
+    font-family: merinda;
+    src: url("Merienda-Regular.ttf");
+}
+
+.body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/background.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+.boy {
+    height: 200px;
+    position: absolute;
+    margin-top: 410px;
+}
+
+.score {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.box {
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    background-image: url("resources/flame.gif");
+    background-size: contain;
+    margin-top: 510px;
+    margin-left: 1000px;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    width: 380px;
+    height: 600px;
+    position: absolute;
+    background-image: url("resources/lion.png");
+    background-size: contain;
+    margin-top: 470px;
+    margin-left: 1000px;
+    background-repeat: no-repeat;
+}
+
+.play {
+    width: 300px;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 350px;
+}
+
+.title {
+    width: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.game {
+    font-size: 70px;
+    margin-left: 700px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.finalScore {
+    position: absolute;
+    font-size: 60px;
+    margin-left: 700px;
+    margin-top: 390px;
+}
+
+.playAgain {
+    width: 200px;
+    font-family: "merinda";
+    position: absolute;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 750px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.playAgain:hover {
+    background-color: rgb(181, 178, 178);
+}
+
+.advice {
+    margin-left: 100px;
+    font-family: "merinda";
+    position: absolute;
+}
+
+.life {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    width: 400px;
+    position: absolute;
+    background-image: linear-gradient(rgb(177, 242, 177), rgb(208, 232, 135), rgb(163, 242, 163));
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(16, 245, 51);
+    border-width: 7px;
+    margin-left: 500px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.won {
+    font-family: "merinda";
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-top: 50px; */
+}
+
+.level1 {
+    font-family: "merinda";
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-top: 50px; */
+}
+
+.nextlevel {
+    font-family: merinda;
+    font-size: 18px;
+    background-color: rgb(146, 188, 28);
+    border-style: solid;
+    border-color: rgb(7, 111, 15);
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 30px;
+    height: 40px;
+    box-shadow: (0px, 0px, 2px, 2px, rgb(7, 111, 15));
+}
+
+.nextlevel:hover {
+    background-color: rgb(182, 245, 9);
+}
+
+.starboard {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.retry {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: green;
+    background-image: url("resources/Reload\ \(1\).png");
+    background-size: contain;
+}
+
+.star1 {
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    background-image: url("resources/star2.png");
+    background-repeat: no-repeat;
+    /* background-color: aliceblue; */
+    background-size: contain;
+    /* flex-grow: 1; */
+    /* background-color: yellow; */
+}
+
+.star2 {
+    width: 50px;
+    /* margin-left: 100px; */
+    height: 50px;
+    /* flex-grow: 1; */
+    /* position: absolute; */
+    background-image: url("resources/star2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: yellow; */
+}
+
+.star3 {
+    width: 50px;
+    height: 50px;
+    /* margin-left: 200px; */
+    /* flex-grow: 1; */
+    /* position: absolute; */
+    background-image: url("resources/star2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: yellow; */
+}
+
+.star4 {
+    width: 50px;
+    height: 50px;
+    /* margin-left: 200px; */
+    /* flex-grow: 1; */
+    /* position: absolute; */
+    background-image: url("resources/star.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: yellow; */
+}
+
+.d1 {
+    flex-grow: 1;
+    background-color: transparent;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.d2 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d3 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d4 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d5 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d6 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d7 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d8 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d9 {
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.d10 {
+    flex-grow: 1;
+    background-color: transparent;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.background2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/2.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
